@@ -1,0 +1,32 @@
+- nettoyer bdd
+	- supprimer categorie
+	- supprimer produit
+
+-Ajouter produit
+	1 sachet 0.5kg cote de porc
+	1 boutelle 0.25l huile
+	1 sachet 0.20kg de sel
+	1 pack 1kg pomme de terre
+	1 pack 0.5kg carotte
+	1 pack 0.33kg poireau
+	1 boite 250g haricot
+	1 pack 6 bouteille cristalline
+	250g fromage
+	1 sachet 750g viande de boeuf
+	1 barquette glace vanille choco
+-Ajouter recette
+	cote de porc au petit legume pour 4 prs
+		-750g cote de porc
+		-0.2 L huile
+		-1kg pomme de terre
+		-1kg carotte
+		-500g poireau
+	Hena omby sy tsaramaso pour 4prs
+		-500g viande de boeuf
+		-600g haricot
+		-100g poireau
+		-0.05 L d'huile
+
+		
+		
+	
