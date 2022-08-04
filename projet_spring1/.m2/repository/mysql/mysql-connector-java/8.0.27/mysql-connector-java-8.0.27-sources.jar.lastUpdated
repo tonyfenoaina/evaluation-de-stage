@@ -1,4 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Jan 19 20:30:59 CET 2022
-@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1642620658998
-https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact mysql\:mysql-connector-java\:jar\:sources\:8.0.27 from/to central (https\://repo.maven.apache.org/maven2)\: repo.maven.apache.org
