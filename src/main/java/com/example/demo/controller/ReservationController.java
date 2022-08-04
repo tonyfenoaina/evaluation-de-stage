@@ -197,12 +197,12 @@ public  ModelAndView AjoutReservation(HttpSession session,Model m,
 		}
 	
 	System.out.println("ty le volatarif :" +volaTarif);
-	
+	System.out.println("ty le volaActuelle :" +vActu);
+
 	double reste = vActu - volaTarif;
-	
+	System.out.println("ty le reste :" +reste);
 	if(reste >= 0) {
-		
-		
+		System.out.println("afaka mividy");
 		Reservation resv = new Reservation();
 		resv = reservationRep.save(new Reservation(idP,idClient,idT,idVehicule,volaTarif,date));
 		
@@ -224,7 +224,18 @@ public  ModelAndView AjoutReservation(HttpSession session,Model m,
 		PDFGenerator generator = new PDFGenerator(idReservation,idVehicule,numeroparking,nom,prenom,String.valueOf(volaTarif),duree);
 		generator.generate(response);*/
 		
-	}}else {
+	}
+	
+	else {
+		//reste = 0-reste;
+		String error = "Tsy ampy le volanao";
+		vue = "client/reservation";
+		m.addAttribute("error",error );
+		m.addAttribute("idVehicule", idVehicule);
+		
+	}
+	
+	}else {
 		//reste = 0-reste;
 		String error = "Tsy afaka mampiditr anio enao";
 		vue = "client/reservation";
